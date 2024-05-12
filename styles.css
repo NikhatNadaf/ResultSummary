@@ -4,6 +4,12 @@
     box-sizing: border-box;
     
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main{
     height: 500px;
     width: 600px;
@@ -72,8 +78,7 @@
 }
 .sum{
     font-size: 28px;
-    position: absolute;
-    top: 18px;
+    position: relative;
     margin-left: 20px;
     margin-bottom: 15px;
 }
